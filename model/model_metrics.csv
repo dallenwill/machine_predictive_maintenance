@@ -1,0 +1,9 @@
+﻿Model,Accuracy,Precision (Class 1),Recall (Class 1),F1-score (Class 1),ROC AUC Score
+Logistic Regression,98.05%,0,0,0,0.84
+Random Forest,98.05%,0.5,0.23,0.32,0.87
+Gradient Boosting Classifier (Default Hyperparameters),98.10%,0.53,0.26,0.34,0.931
+Long Short-Term Memory(LSTM ),98.05%,0,0,0,0.839
+Gradient Boosting Classifier (Tuned Hyperparameters),98.15%,0.57,0.21,0.3,0.916
+,,,,,
+Best Hyperparameters,learning_rate,max_depth, n_estimators,subsample,
+Gradient Boosting Classifier,0.01,3,200,1,
